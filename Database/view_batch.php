@@ -15,6 +15,7 @@ $query="SELECT * FROM tbl_batch";
 <tr>
     <td><?php echo $data ["b_id"]?></td>
     <td><?php echo $data ["b_name"]?></td>
+    <td><a href="update_batch.php?id=<?php echo $data["b_id"]?>"><i class="fa-solid fa-pen-to-square fa-xl"></i></a></td>
 </tr>
 
  <?php }
